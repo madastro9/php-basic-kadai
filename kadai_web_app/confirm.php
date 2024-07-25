@@ -2,7 +2,7 @@
 //セッションを開始
 session_start();
 // POSTリクエストから入力データを取得
-$name = $_POST['empkoyee_name'];
+$name = $_POST['employee_name'];
 $age = $_POST['employee_age'];
 $department = $_POST['department'];
 

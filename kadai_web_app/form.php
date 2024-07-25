@@ -13,8 +13,7 @@
             <tr>
                 <td>社員名</td>
                 <td>
-                    <input type="text" name="empkoyee_name"value="<?php echo isset($_COOKIE['name'])?$_COOKIE['name']:'';?>">
-
+                    <input type="text" name="employee_name"value="<?php echo isset($_COOKIE['name'])?$_COOKIE['name']:'';?>">
                 </td>
             </tr>
             <tr>
